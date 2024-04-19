@@ -2,4 +2,5 @@ FROM alpine:3.19
 
 RUN apk add --no-cache \
     ansible \
-    aws-cli
+    aws-cli \
+    openssh-client
